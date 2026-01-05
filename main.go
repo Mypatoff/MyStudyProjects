@@ -3,7 +3,7 @@ package main
 import "net/http"
 
 func Handler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Hello World"))
+	w.Write([]byte("----Main----"))
 }
 func main() {
 	http.HandleFunc("/", Handler)
