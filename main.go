@@ -1,6 +1,7 @@
 package main
 
 import (
+	"log"
 	"net/http"
 )
 
@@ -10,5 +11,5 @@ func Main(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/", Main)
-	http.ListenAndServe(":8181", nil)
+	log.Fatal(http.ListenAndServe(":8181", nil))
 }
