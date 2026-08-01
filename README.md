@@ -1,6 +1,4 @@
 README
-05.01.2026 Russia
-This is my first project and I'm gonna finish the project and then search for a job
-04.05.2026 Russia
-I failed.
-I go back to home and continue the study.
+Updated: 2026-08-01
+
+I am starting to develop my profile and upload what I do every day to enter a university or get a job.
