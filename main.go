@@ -2,11 +2,13 @@ package main
 
 import (
 	"fmt"
+	"html/template"
 	"net/http"
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "<h1>Hi, I'm Davron</h1><p>This is my website, and it's running on Go.</p>")
+	tmpl := template.Must(template.ParseFiles("Pages_Frontend/home.html"))
+	tmpl.Execute(w, nil)
 }
 
 func main() {
