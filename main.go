@@ -8,6 +8,9 @@ import (
 func homePage(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Hello, Davron!")
 }
+func aboutPage(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "This is the about page.")
+}
 
 func main() {
 	http.HandleFunc("/", homePage)
