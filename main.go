@@ -6,7 +6,8 @@ import (
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello, Davron!")
+	name := r.URL.Query().Get("name")
+	fmt.Fprintf(w, "Hello, %s!", name)
 }
 func aboutPage(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "This is the about page.")
