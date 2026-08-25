@@ -15,9 +15,8 @@ func greetPage(w http.ResponseWriter, r *http.Request) {
 	name := r.URL.Query().Get("name")
 	if name == "" {
 		name = "stranger"
-	} else {
-		fmt.Fprintf(w, "Hello, %s!", name)
 	}
+	fmt.Fprintf(w, "Hello, %s!", name)
 }
 
 func main() {
