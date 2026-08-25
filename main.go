@@ -16,3 +16,8 @@ func main() {
 	fmt.Println("Server running at http://localhost:8080")
 	http.ListenAndServe(":8080", nil)
 }
+func laziness() {
+	fmt.Println("Wtf am I gonna do ?")
+	// I've been wasting all the time
+	// I cannot continue like that.
+}
