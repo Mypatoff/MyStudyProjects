@@ -13,11 +13,16 @@ func aboutPage(w http.ResponseWriter, r *http.Request) {
 }
 func greetPage(w http.ResponseWriter, r *http.Request) {
 	name := r.URL.Query().Get("name")
-	fmt.Fprintf(w, "Hello, %s!", name)
+	if name == "" {
+		name = "stranger"
+	} else {
+		fmt.Fprintf(w, "Hello, %s!", name)
+	}
 }
 
 func main() {
 	http.HandleFunc("/about", aboutPage)
 	http.HandleFunc("/", homePage)
+	http.HandleFunc("/greet", greetPage)
 	http.ListenAndServe(":8080", nil)
 }
