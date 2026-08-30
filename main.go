@@ -1,14 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"net/http"
-)
-
-func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello!")
-}
+import "fmt"
 
 func main() {
-	http.HandleFunc("/", homePage)
+	fmt.Println("---Main Menu---")
 }
