@@ -3,7 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("---Main Menu---")
+	basicIf(18)
 }
-
-//the first cli will be for if else statements
+func basicIf(n int) {
+	if n%2 == 1 {
+		fmt.Println("Odd")
+	} else {
+		fmt.Println("Not odd")
+	}
+}
