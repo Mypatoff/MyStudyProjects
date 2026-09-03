@@ -5,7 +5,8 @@ import (
 )
 
 func main() {
-	fmt.Println("For today, I'll rest")
+	fmt.Println("I have no idea what to do nowadays")
+	//All I am doing is wasting time...
 }
 
 //	func basicIf(n int) {
