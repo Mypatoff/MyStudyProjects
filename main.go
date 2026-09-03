@@ -18,3 +18,5 @@ func main() {
 func goRoutine(i int) {
 	fmt.Println(i)
 }
+
+//I totally forgot about my code((
