@@ -21,3 +21,5 @@ func goRoutine(i int) {
 }
 
 //I totally forgot about my code((
+
+//Why am I searching for some bullshit and looking at em when I have lot to do ??
