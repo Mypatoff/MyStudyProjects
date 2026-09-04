@@ -8,3 +8,4 @@ I will create a fund or sth everyday for each topic
 I gotta do sth to outcome my lazyness
 
 I gotta limit my reading and I gotta start doing something
+I guess so
