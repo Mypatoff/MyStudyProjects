@@ -9,3 +9,6 @@ func main() {
 func anything() {
 	fmt.Println("Anything")
 }
+func notAnything() {
+	fmt.Println("not Anything")
+}
