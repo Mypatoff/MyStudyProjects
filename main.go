@@ -3,12 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Anything")
-	anything()
+	anLoop()
 }
-func anything() {
-	fmt.Println("Anything")
-}
-func notAnything() {
-	fmt.Println("not Anything")
+func anLoop() {
+	for i := range 99 {
+		fmt.Println("Number:", i)
+	}
 }
