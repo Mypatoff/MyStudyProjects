@@ -10,3 +10,6 @@ func Loop() {
 		fmt.Println("Number:", i)
 	}
 }
+func commitCrime() {
+	fmt.Println("no")
+}
