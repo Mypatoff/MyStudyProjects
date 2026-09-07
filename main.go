@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	anLoop()
+	Loop()
 }
-func anLoop() {
+func Loop() {
 	for i := range 99 {
 		fmt.Println("Number:", i)
 	}
