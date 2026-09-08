@@ -3,13 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	Loop()
-}
-func Loop() {
-	for i := range 99 {
-		fmt.Println("Number:", i)
-	}
-}
-func commitCrime() {
-	fmt.Println("no")
+	fmt.Println("Main Menu")
+	fmt.Println("probably for the upcoming project I might start cuz if I don't there is no benefit")
 }
