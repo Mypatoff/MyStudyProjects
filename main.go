@@ -7,3 +7,6 @@ func main() {
 
 	fmt.Println("Side Menu->")
 }
+func goRoutine() {
+	fmt.Println("I complately forgot about it((")
+}
